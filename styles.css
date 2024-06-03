@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #efe4e484;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    background: rgba(189, 237, 14, 0.351);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+#laps li {
+    background: #f1f1f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
